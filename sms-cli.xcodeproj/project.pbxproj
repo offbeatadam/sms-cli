@@ -6,11 +6,24 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		6298E9291488A46A00D04CE5 /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		6298E91B1488A35400D04CE5 = {
 			isa = PBXGroup;
 			children = (
+				6298E9281488A46A00D04CE5 /* jni */,
 			);
+			sourceTree = "<group>";
+		};
+		6298E9281488A46A00D04CE5 /* jni */ = {
+			isa = PBXGroup;
+			children = (
+				6298E9291488A46A00D04CE5 /* Android.mk */,
+			);
+			path = jni;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -23,6 +36,7 @@
 			buildPhases = (
 			);
 			buildToolPath = "/Users/triton/dev/android/android-ndk-r7/ndk-build";
+			buildWorkingDirectory = "/Users/triton/dev/android/sms-cli/jni";
 			dependencies = (
 			);
 			name = "sms-cli";
